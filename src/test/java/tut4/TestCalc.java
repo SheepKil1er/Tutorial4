@@ -11,7 +11,11 @@ public class TestCalc
         assertEquals(2, Calc.add(1,1));
     }
 
-
+    @Test
+    public void SubTest()
+    {
+        assertEquals(1, Calc.subtract(2,1));
+    }
 
 
 }
